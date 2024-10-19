@@ -1,0 +1,9 @@
+{
+	"id": "KmDf4tlWoAWyVq1",
+	"json": "{\"id\":\"KmDf4tlWoAWyVq1\",\"url\":\"https://www.builder.io/c/docs/integrating-builder-pages\",\"loadedUrl\":\"https://www.builder.io/c/docs/integrating-builder-pages\",\"uniqueKey\":\"https://www.builder.io/c/docs/integrating-builder-pages\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2024-10-19T12:42:45.117Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.builder.io/c/docs/integrating-builder-pages",
+	"url": "https://www.builder.io/c/docs/integrating-builder-pages"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "RHk40EHxp3K8Jxv",
+	"json": "{\"id\":\"RHk40EHxp3K8Jxv\",\"url\":\"https://www.builder.io/c/docs/import-from-figma\",\"loadedUrl\":\"https://www.builder.io/c/docs/import-from-figma\",\"uniqueKey\":\"https://www.builder.io/c/docs/import-from-figma\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2024-10-19T12:42:39.736Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.builder.io/c/docs/import-from-figma",
+	"url": "https://www.builder.io/c/docs/import-from-figma"
+}

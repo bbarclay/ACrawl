@@ -38,14 +38,14 @@ function Hello() {
       if (line.includes('INFO')) {
         const [, content] = line.split('INFO');
         return (
-          <div key={index} className="text-green-600">
+          <div key={index} style={{ color: 'green' }}>
             {content.trim()}
           </div>
         );
       }
       if (line.includes('Error:')) {
         return (
-          <div key={index} className="text-red-600">
+          <div key={index} style={{ color: 'red' }}>
             {line}
           </div>
         );
@@ -55,22 +55,39 @@ function Hello() {
   };
 
   return (
-    <div className="p-6">
-      <div className="flex justify-center mb-4">
+    <div style={{ padding: '24px' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
         <img width="200" alt="icon" src={icon} />
       </div>
-      <h1 className="text-2xl font-bold text-center mb-4">
+      <h1 style={{ fontSize: '24px', fontWeight: 'bold', textAlign: 'center', marginBottom: '16px' }}>
         electron-react-boilerplate
       </h1>
-      <div className="flex justify-center mb-4">
+      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
         <button
           onClick={handleRunCrawler}
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          style={{
+            backgroundColor: '#1E90FF',
+            color: 'white',
+            fontWeight: 'bold',
+            padding: '8px 16px',
+            borderRadius: '4px',
+            cursor: 'pointer',
+          }}
         >
           Run Crawler
         </button>
       </div>
-      <div className="border border-gray-300 rounded-lg p-4 max-h-96 overflow-y-auto bg-gray-100 font-mono whitespace-pre-wrap break-words">
+      <div style={{
+        border: '1px solid #D1D5DB',
+        borderRadius: '8px',
+        padding: '16px',
+        maxHeight: '384px',
+        overflowY: 'auto',
+        backgroundColor: '#F3F4F6',
+        fontFamily: 'monospace',
+        whiteSpace: 'pre-wrap',
+        wordBreak: 'break-word',
+      }}>
         {formatOutput(crawlerOutput)}
       </div>
     </div>

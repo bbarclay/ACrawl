@@ -1,0 +1,9 @@
+{
+	"id": "vvEkHWnw70qNKwt",
+	"json": "{\"id\":\"vvEkHWnw70qNKwt\",\"url\":\"https://www.builder.io/c/docs/intro\",\"loadedUrl\":\"https://www.builder.io/c/docs/intro\",\"uniqueKey\":\"https://www.builder.io/c/docs/intro\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2024-10-19T12:42:42.826Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.builder.io/c/docs/intro",
+	"url": "https://www.builder.io/c/docs/intro"
+}
