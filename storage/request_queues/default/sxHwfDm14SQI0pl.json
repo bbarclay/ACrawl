@@ -1,0 +1,9 @@
+{
+	"id": "sxHwfDm14SQI0pl",
+	"json": "{\"id\":\"sxHwfDm14SQI0pl\",\"url\":\"https://www.builder.io/c/docs/abtesting\",\"loadedUrl\":\"https://www.builder.io/c/docs/abtesting\",\"uniqueKey\":\"https://www.builder.io/c/docs/abtesting\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2024-10-19T12:42:39.827Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.builder.io/c/docs/abtesting",
+	"url": "https://www.builder.io/c/docs/abtesting"
+}
